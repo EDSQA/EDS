@@ -16,6 +16,8 @@ public class FirstTest {
         $("[type=password]").setValue("admin");
         $("[class=\"v-button v-widget v-has-width\"]").click();
 
-
+        $("[type=text]").setValue("admin");
+        $("[type=password]").setValue("admin");
+        $("[class=\"v-button v-widget v-has-width\"]").click();
     }
 }
